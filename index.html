@@ -43,6 +43,31 @@
     color: var(--sub);
     font-size: 14px;
   }
+  .operator {
+    margin-top: 72px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .operator h2 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 16px;
+    text-align: center;
+  }
+  .operator dl {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 8px 20px;
+    margin: 0;
+  }
+  .operator dt {
+    color: var(--sub);
+  }
+  .operator dd {
+    margin: 0;
+    overflow-wrap: anywhere;
+  }
 </style>
 </head>
 <body>
@@ -50,6 +75,21 @@
   <h1>ひまタス</h1>
   <p>何もしない時間を、ちょっと足そう。</p>
   <a href="./privacy.html">プライバシーポリシー</a>
+  <section class="operator">
+    <h2>運営者情報</h2>
+    <dl>
+      <dt>屋号</dt>
+      <dd>KONAYA</dd>
+      <dt>代表者</dt>
+      <dd>那須 貴章</dd>
+      <dt>所在地</dt>
+      <dd>〒150-0043 東京都渋谷区道玄坂1丁目10番8号 渋谷道玄坂東急ビル2F-C</dd>
+      <dt>事業内容</dt>
+      <dd>ECコンサルティング、スマートフォンアプリの開発・販売</dd>
+      <dt>お問い合わせ</dt>
+      <dd><a href="mailto:support@konaya.app">support@konaya.app</a></dd>
+    </dl>
+  </section>
 </main>
 </body>
 </html>
